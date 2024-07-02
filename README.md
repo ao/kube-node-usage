@@ -1,5 +1,5 @@
 # kube-node-usage
-Tell me about the usage of all the nodes in my active Kubernetes cluster
+> Tell me about the usage of all the nodes in my active Kubernetes cluster
 
 ## How to use
 
@@ -14,9 +14,9 @@ go: downloading github.com/ao/kube-node-usage v0.0.0-20240702131723-15050cd83a7f
 +----------------------------------------------+---------------+--------------------+
 |                     NODE                     | CPU USAGE (M) | MEMORY USAGE (MIB) |
 +----------------------------------------------+---------------+--------------------+
-| ip-192-168-15-35.us-west-2.compute.internal | 43.00 m       | 677.92 MiB         |
-| ip-192-168-25-45.us-west-2.compute.internal | 21.00 m       | 474.58 MiB         |
-| ip-192-168-35-55.us-west-2.compute.internal | 50.00 m       | 673.24 MiB         |
+| ip-192-168-15-35.us-west-2.compute.internal  | 43.00 m       | 677.92 MiB         |
+| ip-192-168-25-45.us-west-2.compute.internal  | 21.00 m       | 474.58 MiB         |
+| ip-192-168-35-55.us-west-2.compute.internal  | 50.00 m       | 673.24 MiB         |
 +----------------------------------------------+---------------+--------------------+
 ```
 
