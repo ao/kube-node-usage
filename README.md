@@ -24,13 +24,7 @@ go: downloading github.com/ao/kube-node-usage v0.0.0-20240702131723-15050cd83a7f
 
 If you get an error similar to this:
 
-```bash
-Error getting metrics for node ip-192-168-123-55.us-west-2.compute.internal: the server could not find the requested resource (get nodes.metrics.k8s.io ip-192-168-123-55.us-west-2.compute.internal)
-+------+-----------+--------------+
-| NODE | CPU USAGE | MEMORY USAGE |
-+------+-----------+--------------+
-+------+-----------+--------------+
-```
+`Error getting metrics for node ip-192-168-123-55.us-west-2.compute.internal: the server could not find the requested resource (get nodes.metrics.k8s.io ip-192-168-123-55.us-west-2.compute.internal)`
 
 Then you need to make sure that the Metrics server is installed as follows:
 
